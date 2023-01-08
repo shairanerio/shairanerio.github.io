@@ -1,0 +1,394 @@
+* {
+    font-family: montserrat;
+}
+body {
+    background: #f494d1;
+}
+a.nav-link {
+    font-family: arial;
+    margin-left: 14px;
+}
+img, svg {
+    vertical-align: middle;
+    width: 100%;
+    height: 10vh;
+}
+div#navbarSupportedContent {
+    background: #61A4AD;
+    height: 59px;
+}
+.about img {
+    margin-left: 70px;
+    height: 80vh;
+    width: 29%;
+    margin-top: 100px;
+}
+.about h1 {
+    text-align: center;
+    margin-left: 344px;
+    padding-top: 50px;
+    color: gold;
+    padding-bottom: 50px;
+}
+.about p1 {
+    margin-left: 630px;
+}
+
+.about p {
+    margin-left: 534px;
+    margin-top: -751px;
+    font-size: 25px;
+}
+section.contact {
+    background: #FCF6F5FF;
+    margin-top: 118px;
+    margin-top: 151px;
+}
+section.about {
+    background: #113B48;
+}
+
+.about-left {
+    background: #E8455D;
+    padding-bottom: 325px;
+}
+.section-padding {
+    padding: 100px 0;
+    width: 100%;
+    background: #8ABAD3FF;
+}
+section#background {
+    background: #F7CED7FF;
+}
+section#skills {
+    background: #EDC2D8FF;
+}
+section#parents {
+    background: #F99FC9FF;
+}
+
+.background h2 {
+    font-size: 45px;
+}
+.background h6 {
+    font-size: 20px;
+    margin-left: -108px;
+    margin-top: 30px;
+}
+.background p {
+    font-size: 20px;
+}
+.background p4 {
+    margin-left: 26px;
+    font-size: 18px;
+}
+.background p1 {
+    font-size: 18px;
+    margin-left: 37px;
+}
+.background p2 {
+    font-size: 18px;
+    margin-left: 84px;
+}
+.background p3 {
+    font-size: 18px;
+    margin-left: 88px;
+}
+.background p5 {
+    font-size: 18px;
+    margin-left: 120px;
+}
+.background p6 {
+    font-size: 18px;
+    margin-left: 149px;
+}
+.background p7 {
+    font-size: 18px;
+    margin-left: 99px;
+}
+.background p8 {
+    font-size: 18px;
+    margin-left: 134px;
+}
+.bi-house-heart-fill::before {
+    content: "\f775";
+    font-size: 58px;
+    margin-left: 95px;
+}
+.bi-house-fill::before {
+    content: "\f424";
+    font-size: 58px;
+    margin-left: 133px;
+}
+.bi-building-fill::before {
+    content: "\f876";
+    font-size: 58px;
+    margin-left: 143px;
+    margin-top: -4px;
+}
+
+@media (min-width: 1200px) {
+    .h2, h2 {
+    font-size: 2rem;
+    margin-top: 35px;
+    }
+    .col p {
+    margin-left: 102px;
+    }
+
+@media (min-width) {
+    .about p {
+        margin-left: 534px;
+        margin-top: -751px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about img {
+        margin-left: 70px;
+        height: 45vh;
+        width: 35%;
+        margin-top: 228px;
+        margin-left: 3px;
+    }
+}
+
+}
+.carousel-item {
+    width: 10%;
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption {
+    bottom: 1px;
+    z-index: 2;
+}
+.carousel-caption h5 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -100px;
+    color: gold;
+    font-style: bold;
+    margin-left: 0px;
+}
+.carousel-caption p {
+    width: 60px;
+    margin: auto;
+    font-size: 50px;
+    line-height: 1.9;
+    color: gold;
+    font-style: bold;
+    margin-top: 180px;
+    margin-left: 400px;
+}
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+.navbar-nav a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .nav-brand {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #000;
+}
+.navbar-light .navbar-nav .navbar-link {
+    color: #000;
+}
+.w-100 {
+    height: 100vh;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.about h2 {
+    margin-top: -600px;
+    margin-left: 366px;
+    font-size: 45px;
+}
+
+
+.skills h2 {
+    font-size: 45px;
+}
+.skills .card-body i {
+    font-size: 50px;
+}
+
+.parents h2 {
+    font-size: 45px;
+}
+.parents .card-body {
+    font-size: 20px;
+}
+.parents .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+.skills .card {
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+
+.skills {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.skills-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.skills-col img {
+    width: 100%;
+    border-radius: 10px;
+    height: 55vh;
+}
+h6 {
+    text-align: center;
+    font-size: 28px;
+}
+.skills-col p {
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.skills-col h6 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.pt-4 {
+    padding-top: 5.5rem!important;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    background: #F6C89A;
+}
+.footer h5 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 36px;
+    color: black;
+    padding-top: 50px;
+}
+.footer h6 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: 400;
+}
+.icons .fa {
+    color: red;
+    margin: 0 20px;
+    cursor: pointer;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.footer::before {
+    color: red;
+}
+p.text-white {
+    margin-top: 30px;
+}
+
+
+
+/*=== responsive css ===*/
+
+@media only screen and (min-width:768pc) and (max-width:991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+    .img-area img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel-caption {
+        bottom: 125px;
+    }
+    .carousel-caption h5 {
+        font-size: 15px;
+        margin-top: -429px;
+        margin-left: 11px;
+    }
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+    .about-text {
+    padding-top: 50px;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+    .carousel-caption p {
+        width: 100%;
+        margin: auto;
+        font-size: 15px;
+        line-height: 1.9;
+        color: gold;
+        font-style: bold;
+        margin-top: 180px;
+        margin-left: -1px;
+    }
+    .about h1 {
+        text-align: center;
+        margin-left: 31px;
+        padding-top: 50px;
+        color: gold;
+        padding-bottom: 50px;
+    }
+    .about img {
+        margin-left: 2px;
+        height: 78vh;
+        width: 38%;
+        margin-top: 243px;
+    }
+    .about p {
+        margin-left: 234px;
+        margin-top: -1083px;
+        font-size: 25px;
+    }
+}
